@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+	
+	Options +FollowSymlinks
+	RewriteEngine on	
+	
+	RewriteRule ^index$ index.php
+	RewriteRule ^home$ index.php
+	RewriteRule ^contato$ contato.php
+	RewriteRule ^sobre-a-convencao$ convencao.php
+	
+	RewriteRule ^quantidade-de-passageiro$ cadastro-etapa1.php
+	RewriteRule ^escolha-de-cabine$ cadastro-etapa2.php
+	RewriteRule ^informacoes-dos-passageiros$ cadastro-etapa3.php
+	RewriteRule ^forma-de-pagamento$ cadastro-etapa4.php
+	RewriteRule ^concluida-com-sucesso$ cadastro-etapa5.php
+	
+	RewriteRule ^404$ erros/404.php	
+	RewriteRule ^deuruim$ erros/erro.php	
+
+</IfModule>
+
+<IfModule mod_php5.c>
+	php_flag session.auto_start on
+</IfModule>
+
+ErrorDocument 404 http://www.metacerta.com/cruzeiro/404

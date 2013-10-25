@@ -1,0 +1,243 @@
+   
+.controleQuantidade {
+    float: left;
+    height: 28px;
+    margin: 9px 0 0 6px;
+    width: 15px; 
+}
+
+.quantidade, .adicionarItem , .removeItem{
+	float: left;
+}
+
+.adicionarItem{
+	background: url("../img/setas.gif") no-repeat scroll 0 0px transparent;
+}
+
+.removeItem{
+	background: url("../img/setas.gif") no-repeat scroll 0 -23px transparent;
+	margin-top: 8px;
+}
+
+
+.adicionarItem a, .removeItem a {
+    display: block;
+    height: 8px;
+    width: 15px;
+	text-indent: -9999px;
+	cursor:pointer;
+}
+
+table.boxTabela {
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #6685ed;
+	margin:0px 0px 15px 0px;
+	padding:0px;
+	width:100%;
+}
+
+table.boxTabela th{
+	background-color:#0A6494;
+	border:1px solid #fff;
+	color:#fff;
+	font-weight:bold;
+	padding:5px 2px;	
+	font-size: 12px;
+}
+
+table.boxTabela th a{
+	text-decoration:none;
+}
+
+table.boxTabela th a:hover{
+	text-decoration:underline;
+}
+
+table.boxTabela td{
+	vertical-align:middle;
+	padding:5px;
+}
+
+.linhaTotal{
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+}
+
+#titValorEstimado{
+	font-weight: bold;
+    padding: 10px;
+    text-align: right !important;
+	font-size: 16px;
+}
+
+#valorEstimado{
+	font-weight: bold;
+    padding: 10px;
+    text-align: left !important;
+	color: #0A8DC1;
+	font-size: 16px;
+}
+
+.zebra{
+	background-color:#F4F3F3;
+}
+
+.zebra1{
+	background-color:#fff;
+}
+
+.linhaTabela:hover{ 
+	background-color: #C7E2ED;
+}
+
+.trCenter {
+    text-align: center;
+}
+
+.indisponivel{
+	background: url("../img/indisponivel.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+	text-indent: -9999px;
+}
+
+.disponivel{
+	background: url("../img/disponivel.gif") no-repeat scroll center center rgba(0, 0, 0, 0);
+	text-indent: -9999px;
+}
+
+.fotoCabine{
+    background: url("../img/foto.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: block;
+    height: 26px;
+    margin-left: 12px;
+    text-align: center;
+    text-indent: -9999px;
+    width: 30px;	
+}
+
+.fotoCabine-off{
+    background: url("../img/foto-off.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: block;
+    height: 26px;
+    margin-left: 12px;
+    text-align: center;
+    text-indent: -9999px;
+    width: 30px;	
+}
+
+.tipoPassageiro{
+	color: #0A8DC1;
+    margin: 12px 0;
+}
+
+.dados-passaporte{
+	display: none;
+}
+
+#resumoReserva{
+	background: url("../img/bg_boxTabela.gif") repeat-x;
+	margin: 10px;
+    padding: 10px 15px 20px;
+    width: 735px;
+}
+
+#resumoReserva ul{
+	margin: 10px 0 0 20px;
+}
+
+#resumoReserva h4{
+    border-bottom: 1px solid #FFFFFF;
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+.precoFinal{
+	color: #0A8DC1;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center !important;
+}
+
+.precoDetalhe{
+	display: block;
+    font-size: 9px;
+    margin: 6px;
+}
+
+.listaPassageiro{
+	margin: 0 0 0 12px !important;
+    padding: 0 !important;
+}
+
+.opcaoPagamento{
+	margin: 17px 10px 0;
+	clear: both;
+}
+
+.legenda{
+	font-size: 11px;
+    margin: 6px 0 0 38px;
+}
+
+.tipoPagamento{
+	font-weight: bold;
+	clear: both;
+}
+
+#contCartao, #contTelexfree{
+	display: none;
+	overflow: auto;
+}		
+
+#bonusTitulo{
+	color: #0A8DC1;
+	font-size: 16px;
+}
+
+#contQuantBonus{
+	float: left;
+	margin: 14px 0 35px 30px;
+}
+
+#bt-bonus{
+	clear: both;
+}
+
+#imgQuantBonus{
+	float: left;
+}
+
+#quantBonus{
+	display: none;
+}
+
+#quantidadeBonus{
+	font-weight: bold;
+}
+
+.titSucesso{
+	color: #0A8DC1;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 6px;
+}
+
+.numPedido{
+	color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.linkTermo{
+	font-size: 12px !important;
+}
+
+#passagemAerea{
+	margin: 10px 0 10px 5px;
+}
+
+.detalheCabine {
+    display: block;
+    font-size: 9px;
+    margin-top: 6px;
+}

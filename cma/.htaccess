@@ -1,0 +1,50 @@
+<IfModule mod_rewrite.c>
+	
+	Options +FollowSymlinks
+	RewriteEngine on	
+	
+	RewriteRule ^sair$ logout.php
+	RewriteRule ^$ index.php
+	
+	RewriteRule ^cruzeiro$ cruzeiro-gerenciar.php
+	RewriteRule ^cruzeiro-inserir$ cruzeiro-inserir.php
+	RewriteRule ^cruzeiro-alterar/([0-9]+)$ cruzeiro-alterar.php?id=$1
+	RewriteRule ^cruzeiro-visualizar/([0-9]+)$ cruzeiro-visualizar.php?id=$1
+	
+	RewriteRule ^vendas$ vendas-gerenciar.php
+	RewriteRule ^vendas-visualizar/([0-9]+)$ vendas-visualizar.php?id=$1
+	RewriteRule ^vendas-processar/([0-9]+)$ vendas-processar.php?id=$1
+	RewriteRule ^vendas-concluir/([0-9]+)$ vendas-concluir.php?id=$1
+	RewriteRule ^vendas-concluir-bonus/([0-9]+)$ vendas-concluir-bonus.php?id=$1
+	
+	RewriteRule ^vendas-passageiro/([0-9]+)$ vendas-etapa1.php?id=$1
+	RewriteRule ^vendas-dados/([0-9]+)$ vendas-etapa2.php?id=$1
+	RewriteRule ^vendas-pagamento/([0-9]+)$ vendas-etapa3.php?id=$1
+	
+	RewriteRule ^cotacao$ cotacao-gerenciar.php
+	RewriteRule ^cotacao-inserir$ cotacao-inserir.php
+	
+	RewriteRule ^camisa$ camisa-gerenciar.php
+	
+	RewriteRule ^usuario$ usuario-gerenciar.php
+	RewriteRule ^usuario-inserir$ usuario-inserir.php
+	
+	RewriteRule ^cabine$ cabine-gerenciar.php
+	RewriteRule ^cabine-reservar/([0-9]+)$ cabine-reservar.php?id=$1
+	RewriteRule ^cabine-liberar/([0-9]+)$ cabine-liberar.php?id=$1
+	RewriteRule ^cabine-estornar/([0-9]+)$ cabine-estornar.php?id=$1
+	
+	RewriteRule ^gerenciar-reservas$ cabine-reservas24h.php
+		
+	RewriteRule ^cabine-vender/([0-9]+)$ cabine-vender.php?id=$1
+	
+	RewriteRule ^404$ erros/404.php	
+	RewriteRule ^deuruim$ erros/erro.php	
+
+</IfModule>
+
+<IfModule mod_php5.c>
+	php_flag session.auto_start on
+</IfModule>
+
+ErrorDocument 404 http://www.metacerta.com/cruzeiro/404

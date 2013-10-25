@@ -1,0 +1,774 @@
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;	
+}
+
+body {
+	font-size:13px;	
+	color: #666666;
+	background: url("../img/bg.jpg") no-repeat scroll 0 0 #E5C396;
+}
+
+img{
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+
+fieldset{
+	border:0px;
+	padding:0px;
+	margin:10px;
+}
+
+fieldset.cadastro{
+    border: 1px solid #EEE !important;
+    margin: 20px 0 20px 5px;
+    padding: 10px;
+    width: 745px;
+}
+
+legend{
+	display:none;
+}
+
+label{
+	margin-left: 5px;
+}
+
+fieldset.cadastro legend{
+	color: #999999;
+    display: block !important;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+div{
+	position:relative;
+	padding:0px;
+	margin:0px;
+}
+
+p {
+	color:#666666;
+	font-size:13px;
+	margin-bottom: 10px;
+	line-height: 140%;
+}
+
+p.depoimento{
+	color:#666666;
+	font-size:13px;
+	margin-bottom: 10px;
+	line-height: 110%;
+	text-align: justify;
+}
+
+
+input[type=text], input[type=password]{
+    border: 1px solid #CCC;
+    color: #999999;
+    font-family: arial;
+    font-size: 14px;
+    height: 36px;
+	line-height: 36px;
+    margin: 4px 0 4px 4px;
+    padding-left: 8px;
+    width: 238px;	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;	
+}
+
+select{
+	margin: 4px 0 4px 4px;
+    border: 1px solid #CCC;
+    color: #999999;
+    font-family: arial;
+    font-size: 14px;
+    padding: 9px;
+    font-size: 13px;
+    line-height: 1.2em;
+	width: 250px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;	
+}
+
+.itemForm2{
+	width: 225px !important;
+}
+
+.itemForm3{
+	width: 597px !important;
+}
+
+.itemForm4{
+	width: 353px !important;
+}
+
+.itemForm5{
+	width: 482px !important;
+}
+
+.itemForm6{
+	width: 239px !important;
+}
+
+label.itemForm7{
+	margin: 0 17px 0 39px !important;
+}
+
+label.itemForm8{
+	margin: 0 13px 0 32px !important;
+}
+
+.itemForm9{
+	width: 285px !important;
+}
+
+.itemForm10{
+	width: 238px !important;
+}
+
+textarea{
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #999999;
+    font-family: arial;
+    font-size: 14px;
+    height: 70px;
+    margin: 0 0 4px 4px;
+    padding: 10px;
+    width: 730px;
+}
+
+table { 
+	border-collapse: collapse;
+}
+
+
+a:link {
+    color: #0A8DC1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #0A8DC1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0A8DC1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:active {
+    color: #0A8DC1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+.btnInterno {
+    background-color: #0A8DC1;
+    border-color: #0A8DC1 #18709D #18709D #0A8DC1;
+    border-style: solid;
+    border-width: 2px;
+    color: #FFFFFF !important;
+    display: block;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    height: 21px;
+    margin: 15px 0 0 5px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+	text-decoration: none;
+}
+
+.btnInterno:hover {
+    background-color: #0A82AF;
+    border-color: #0A82AF #18709D #18709D #0A82AF;
+    border-style: solid;
+    border-width: 2px;
+    color: #FFFFFF !important;
+    display: block;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    height: 21px;
+    margin: 15px 0 0 5px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.MsgError{
+	background-color: #EAEAEA;
+	background-image: url(../img/flag-erro.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	border-top:2px solid #EAEAEA;
+	border-left:2px solid #EAEAEA;
+	border-bottom:2px solid #E0E0E0;
+	border-right:2px solid #E0E0E0;
+	color: #000000;
+    margin: 10px;
+    padding:15px 10px 15px 70px;    
+	width:42%;   
+	display: none;
+}
+
+.MsgError2{
+	background-color: #EAEAEA;
+	background-image: url(../img/flag-erro.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	border-top:2px solid #EAEAEA;
+	border-left:2px solid #EAEAEA;
+	border-bottom:2px solid #E0E0E0;
+	border-right:2px solid #E0E0E0;
+	color: #000000;
+    margin: 10px;
+    padding:15px 10px 15px 70px;    
+	width:42%; 
+}
+
+.divSucesso{
+	background-color: #EAEAEA;
+	background-image: url(../img/flag-sucesso.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	border-top:2px solid #EAEAEA;
+	border-left:2px solid #EAEAEA;
+	border-bottom:2px solid #E0E0E0;
+	border-right:2px solid #E0E0E0;
+	color: #000000;
+	margin: 10px;
+    padding: 8px 10px 8px 70px;
+    width: 50%; 
+}
+
+#home{
+	background-color: #0399EE;
+}
+
+#suaReserva{
+    background: url("../img/reserve.png") no-repeat scroll 0 0 transparent;
+    height: 79px;
+    left: 782px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 147px;
+    width: 174px;
+    z-index: 1;
+}
+
+#logo{
+    background: url("../img/logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 200px;
+    margin: 17px auto auto;
+    text-indent: -9999px;
+    width: 277px;
+}
+
+#site{
+    margin: 0 auto;
+    overflow: auto;
+    position: relative;
+    width: 969px;
+}
+
+
+#super-banner{
+	background: url("../img/super-banner.png") no-repeat scroll 0 0 transparent;
+	height: 413px;
+    width: 969px;
+}
+
+#menu{
+    overflow: auto;
+    padding-top: 10px;
+}
+
+#listaMenu {
+    display: block;
+    list-style: none outside none;
+    margin: 15px auto auto 208px;
+    overflow: auto;
+    width: 700px;
+}
+
+#listaMenu2 {
+	display: block;
+    list-style: none outside none;
+    margin: 15px auto auto 208px;
+    overflow: auto;
+    position: absolute;
+    width: 700px;
+    z-index: 5;
+}
+
+#listaMenu li, #listaMenu2  li {
+    float: left;
+    margin-right: 50px;
+}
+
+#menu-home {
+    background: url("../img/btHome.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 23px;
+    text-indent: -9999px;
+    width: 68px;
+}
+
+#menu-convencao {
+    background: url("../img/btConvencao.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 23px;
+    text-indent: -9999px;
+    width: 126px;
+}
+
+#menu-reserva {
+    background: url("../img/btReserva.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 23px;
+    text-indent: -9999px;
+    width: 178px;
+}
+
+#menu-contato {
+    background: url("../img/btContato.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 23px;
+    text-indent: -9999px;
+    width: 87px;
+}
+
+#contBanner{
+    margin-top: 25px;
+    overflow: auto;
+}
+
+#contEsquerda{
+    float: left;
+    margin-left: 33px;
+    margin-right: 17px;
+    margin-top: 55px;
+    overflow: auto;
+    width: 370px;
+}
+
+#contDireita{
+	float: left;
+}
+
+#destaque{
+	display: block;
+	background: url("../img/cruzeiro.jpg") no-repeat scroll 0 0 transparent;
+	width: 529px;
+	height: 329px;
+	text-indent: -9999px;
+}
+
+#convencao{
+    background: url("../img/convencao.png")  no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 63px;
+    margin-bottom: 35px;
+    text-indent: -9999px;
+    width: 350px;
+}
+
+#forma-pagamento{
+    background: url("../img/forma-pagamento.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 41px;
+    text-indent: -9999px !important;
+    width: 289px;
+	margin-top: 20px;
+}
+
+#forma-pagamento:hover{
+    background: url("../img/forma-pagamento.png") no-repeat scroll 0 -41px transparent;
+}
+
+#meio{
+	margin-left: 9px;
+}
+
+#listaVantagens{
+	display: block;
+    height: 200px;
+    list-style: none outside none;
+    margin: auto;
+    width: 960px;
+}
+
+#listaVantagens li {
+    float: left;
+}
+
+#atracoes a{	
+	background: url("../img/atracoes.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 200px;
+    text-indent: -9999px;
+    width: 320px;
+}
+
+#roteiro a{
+	background: url("../img/roteiro.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 200px;
+    text-indent: -9999px;
+    width: 320px;
+}
+
+#orchestra a{
+	background: url("../img/orchestra.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 200px;
+    text-indent: -9999px;
+    width: 320px;
+}
+
+#rodape {
+	background: url("../img/ondas.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 11px;
+    height: 143px;
+    width: 960px;
+	padding-top: 20px;
+	margin-left: 9px;
+}
+
+#reserve-cabine{
+    background: url("../img/reserve-cabine.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 59px;
+    text-indent: -9999px !important;
+    width: 286px;
+	margin: auto;
+}
+
+#reserve-cabine:hover{
+    background: url("../img/reserve-cabine.png") no-repeat scroll 0 -59px transparent;
+}
+
+#direitos{
+    color: #FFFFFF;
+    font-size: 11px;
+    margin-top: 57px;
+    text-align: center;
+}
+
+#conteudo{
+	background-color: #FFFFFF;
+    margin-left: 9px;
+    padding: 20px;	
+}
+
+#menu2{
+    background: url("../img/barra-menu.png") no-repeat scroll 0 0 transparent;
+    height: 49px;
+    overflow: auto;
+    padding-top: 10px;
+}
+
+#naofique{
+    background: url("../img/dentro.png") no-repeat scroll 0 0 transparent;
+    height: 144px;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 216px;
+    width: 276px;
+    z-index: 2;
+}
+
+#titReserva{
+    background: url("../img/titReserva.jpg") no-repeat scroll 0 0 transparent;
+	display: block;
+    height: 42px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-indent: -9999px !important;
+    width: 368px;
+}
+
+#titContato{
+    background: url("../img/titContato.jpg") no-repeat scroll 0 0 transparent;
+	display: block;
+    height: 42px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-indent: -9999px !important;
+    width: 224px;
+}
+
+.labelContato1{
+	margin-right: 40px;
+}
+
+.labelContato2{
+	margin-right: 26px;
+}
+
+.labelContato3{
+	margin-top: 13px;
+	display: block;
+}
+
+.textarea2{
+    height: 80px !important;
+    margin: 5px 0 4px 4px !important;
+    width: 426px !important;	
+}
+
+#titPassageiro{
+    background: url("../img/passo-passageiro.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 50px;
+    margin: 25px 0;
+    text-indent: -9999px !important;
+    width: 580px;
+}
+
+#titCabine{
+    background: url("../img/passo-cabine.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 50px;
+    margin: 25px 0;
+    text-indent: -9999px !important;
+    width: 580px;
+}
+
+#titDados{
+    background: url("../img/passo-dados.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 50px;
+    margin: 25px 0;
+    text-indent: -9999px !important;
+    width: 580px;
+}
+
+#titForma{
+    background: url("../img/passo-pagamento.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 50px;
+    margin: 25px 0;
+    text-indent: -9999px !important;
+    width: 580px;
+}
+
+#titFinal{
+    background: url("../img/passo-final.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 50px;
+    margin: 25px 0;
+    text-indent: -9999px !important;
+    width: 580px;
+}
+
+#comprarMais{
+    background: url("../img/comprarMais.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 59px;
+    text-indent: -9999px !important;
+    width: 286px;
+}
+
+#comprarMais:hover{
+    background: url("../img/comprarMais.jpg") no-repeat scroll 0 -59px transparent;
+}
+
+#titConvencao{
+	background: url("../img/titConvencao.jpg") no-repeat scroll 0 0 transparent;
+	display: block;
+    height: 42px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-indent: -9999px !important;
+    width: 300px;
+}
+
+#fotos{
+	display: block;
+    list-style: none outside none;
+    overflow: auto;
+}
+
+#fotos li{
+	float:left;
+}
+
+#foto1{
+	background: url("../img/navio/navio-orchestra-mini-1.jpg") no-repeat scroll 0 0 transparent;
+	display: block;
+    height: 99px;
+    text-indent: -9999px !important;
+    width: 287px;
+}
+
+#foto2{
+	background: url("../img/navio/navio-orchestra-mini-2.jpg") no-repeat scroll 0 0 transparent;
+	display: block;
+    height: 99px;
+    text-indent: -9999px !important;
+    width: 287px;
+}
+
+#foto3{
+	background: url("../img/navio/navio-orchestra-mini-3.jpg") no-repeat scroll 0 0 transparent;
+	display: block;
+    height: 99px;
+    text-indent: -9999px !important;
+    width: 287px;
+}
+
+#foto4{
+	background: url("../img/navio/navio-orchestra-mini-4.jpg") no-repeat scroll 0 0 transparent;
+	display: block;
+    height: 99px;
+    text-indent: -9999px !important;
+    width: 287px;
+}
+
+#foto5{
+	background: url("../img/navio/navio-orchestra-mini-5.jpg") no-repeat scroll 0 0 transparent;
+	display: block;
+    height: 99px;
+    text-indent: -9999px !important;
+    width: 287px;
+}
+
+#foto6{
+	background: url("../img/navio/navio-orchestra-mini-6.jpg") no-repeat scroll 0 0 transparent;
+	display: block;
+    height: 99px;
+    text-indent: -9999px !important;
+    width: 287px;
+}
+
+.margem{
+	margin-bottom: 10px;
+    margin-right: 27px;
+}
+
+.horario{
+	width: 120px;
+}
+
+
+#primeiroDia, #segundoDia, #terceiroDia, #quartoDia{
+	margin-left: 3px;
+    width: 914px;
+	margin-top: 10px;
+}
+
+#segundoDia, #terceiroDia, #quartoDia{
+	display: none;
+}
+
+#primeiroDia table tr td, #segundoDia table tr td, #terceiroDia table tr td, #quartoDia table tr td{
+	padding: 10px;
+}
+
+#primeiroDia table tr th, #segundoDia table tr th, #terceiroDia table tr th, #quartoDia table tr th{
+	padding: 10px;
+}
+
+#itinerario{
+	background: url("../img/itinerario.jpg") no-repeat scroll 0 0 transparent;
+    height: 170px;
+    text-indent: -9999px !important;
+    width: 886px;
+	margin: auto;
+}
+
+#abasCalendario{
+	display: block;
+    list-style: none outside none;
+    overflow: auto;
+	margin-left: 4px;
+}
+
+#abasCalendario li{
+	float:left;
+	cursor: pointer;
+}
+
+#menuPrimeiroDia{
+	background: url("../img/primeiro-click.jpg") no-repeat scroll 0 0 transparent;
+    height: 65px;
+    text-indent: -9999px !important;
+    width: 228px;
+	margin: auto;
+}
+
+#menuPrimeiroDia:hover{
+    background: url("../img/primeiro.jpg") no-repeat scroll 0 -65px transparent !important;
+}
+
+#menuSegundoDia{
+	background: url("../img/segundo.jpg") no-repeat scroll 0 0 transparent;
+    height: 65px;
+    text-indent: -9999px !important;
+    width: 228px;
+	margin: auto;
+}
+
+#menuSegundoDia:hover{
+    background: url("../img/segundo.jpg") no-repeat scroll 0 -65px transparent !important;
+}
+
+#menuTerceiroDia{
+	background: url("../img/terceiro.jpg") no-repeat scroll 0 0 transparent;
+    height: 65px;
+    text-indent: -9999px !important;
+    width: 228px;
+	margin: auto;
+}
+
+#menuTerceiroDia:hover{
+    background: url("../img/terceiro.jpg") no-repeat scroll 0 -65px transparent !important;
+}
+
+#menuQuartoDia{
+	background: url("../img/quarto.jpg") no-repeat scroll 0 0 transparent;
+    height: 65px;
+    text-indent: -9999px !important;
+    width: 228px;
+	margin: auto;
+}
+
+#menuQuartoDia:hover{
+    background: url("../img/quarto.jpg") no-repeat scroll 0 -65px transparent !important;
+}
+
+.titConvencao{
+	border-bottom: 1px solid #eee;
+    font-size: 17px;
+    margin: 25px -4px 25px 1px;
+    padding-bottom: 5px;
+}

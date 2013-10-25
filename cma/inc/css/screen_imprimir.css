@@ -1,0 +1,8 @@
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif !important ; 
+	font-size:8.5pt !important ;
+}
+
+.topo, .menu, .rodape, .MsgOk, .MsgError, .btnInterno{
+   display:none !important;
+}
