@@ -78,7 +78,7 @@
 		
 			<h2 id="titContato">Contato</h2>
 			
-			<p>Caso queira tirar alguma dúvida sobre a 1ª Convenção Internacional TelexFREE ou compartilhar uma sugestão com nossa equipe, basta entrar em contato através do formulário abaixo. Garantimos que você será respondido o mais breve possível!</p>
+			<p>Caso queira tirar alguma dúvida sobre a 1ª Convenção Internacional TelexFREE ou compartilhar uma sugestão com nossa equipe, basta entrar em contato através do formulário abaixo. Garantimos que você será respondido o mais breve possível.</p>
 			
 			<div id="MsgErroValida" class='MsgError'>
 				Os seguintes erros foram encontrados:<br />
